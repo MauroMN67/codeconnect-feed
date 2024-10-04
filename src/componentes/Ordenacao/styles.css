@@ -1,29 +1,23 @@
-.container-ordenacao ul li {
-  background-color: var(--grafite);
-  padding: 0.25em 0.5em;
-  border: 4px;
+.lista-ordenacao__link {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    color: var(--cinza-medio);
+    text-decoration: none;
 }
 
-.container-ordenacao {
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
-  font-size: 22px;
-  line-height: 33px;
+.lista-ordenacao__link--ativo {
+    color: var(--verde-destaque);
+    font-weight: 600;
+    text-decoration: underline;
 }
 
-.container-ordenacao ul {
-  list-style-type: none;
-  display: flex;
-  gap: 10px;
-}
+.lista-ordenacao {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
 
-.item {
-  color: var(--cinza-medio);
-  text-decoration: none;
-}
-
-.item-selecionado {
-  color: var(--verde-destaque);
-  text-decoration: underline;
+    margin-top: 56px;
+    margin-bottom: 32px;
 }
